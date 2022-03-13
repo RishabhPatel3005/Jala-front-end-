@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JALA INPUT FORMS</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            .pding{
+                padding-top:70px;
+            }
+            footer{
+                padding:10px 0px;
+                background-color:#FFFFFF;
+                color:#9d9d9d;
+                bottom: 0;
+                width:100%;
+                position:fixed;
+            }
+            #bckgrnd{
+                background-image: url("img/Jala.jpg");
+                height: 100vh;
+                width:210vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Jala Internship</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-envelope"></span>About Internship</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="bckgrnd">
+        <div class="container">
+            <div class="pding">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="panel panel-default">
+                        <h1>Forms</h1>
+                        <form>
+                            <div class="panel-body">
+                            <div class="form-group">
+                                <label for="firstname">First Name</label>
+                                <input type="text" class="form-control" name="firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email id</label>
+                                <input type="Email" class="form-control" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneno">Mobile Number</label>
+                                <input type="Telephone" class="form-control" name="phoneno">
+                            </div>
+                            <div class="form-group">
+                            <div class="radio">
+                                <label><input type="radio" name="passnyr" value="2022">2022</label>
+                                <label><input type="radio" name="passnyr" value="2023">2023</label>
+                                <label><input type="radio" name="passnyr" value="2024">2024</label>
+                            </div>
+                            </div>
+                            <div class="form-group">
+                            <div class="checkbox">
+                                Languages:
+                                <label>
+                                    <input type="checkbox" name="lang" value="c">C
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="lang" value="java">Java
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="lang" value="python">Python
+                                </label>
+                                
+                            </div>
+                                <button type="submit" class="btn-default">Submit</button>
+                            </div>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        <footer>
+            <div class="container">
+                <center>
+            For more information, click on <a href="jalatechnologies.com" target="_blank">Click here</a>
+                </center>
+            </div>
+        </footer>
+        
+    </body>
+</html>

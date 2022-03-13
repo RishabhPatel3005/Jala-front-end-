@@ -1,0 +1,28 @@
+/*
+1. Add CSS comments in your CSS block
+*/
+            .pding{
+                padding-top:100px;
+                
+            }
+            p{
+                
+                font: italic small bolder 30px arial,sans-serif;
+            }
+            footer{
+                padding:10px 0px;
+                background-color:#FFFFFF;
+                color:#9d9d9d;
+                bottom: 0;
+                width:100%;
+                position:fixed;
+
+            }
+            #bckgrnd{
+                background-image: url("img/Jala.jpg");
+                height: 100vh;
+                width:210vh;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+

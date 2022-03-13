@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JAVASCRIPT BASICS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            //Java script single line comment
+            /*
+              Java script multi-line comments
+            */
+        </script>
+    </head>
+    <body>
+        <h1 id="demo"></h1>
+        <p id="demo1"></p>
+        <script type="text/javascript">
+            var fruits=["apple","mango","strawberry","berries","lichi","banana","orange","grapes"];
+            function show(){
+            document.getElementById("demo").innerHTML=fruits.sort();
+            var a="";
+            var person={firstname:"Rishabh", lastname:"Patel", Age:23};
+            var x;
+            for(x in person)
+                a+="<br>"+person[x];
+            document.getElementById("demo1").innerHTML=a;
+    }
+        </script>
+    <center><button onclick="show()">Click me</button></center>
+    </body>
+</html>
